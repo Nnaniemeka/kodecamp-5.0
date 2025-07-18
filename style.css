@@ -11,12 +11,15 @@ body{
 .background-div {
     height: 45rem;
     background-image: url("./images/background.png");
+    max-width: 1275px;
+    margin: 0 auto;
+    padding: 0 25px;
 }
 
 .hero-container{
-    max-width: 1200px;
-    margin: 0 ;
-    padding: 0 20px;
+    max-width: 1275px;
+    margin: 0 auto;
+    padding: 0 25px;
     
 }
 .header-content {
@@ -115,6 +118,7 @@ body{
     z-index: 1;
     width: 30%;
     height: 100%;
+    left: 941px;
     
 }
 .laptopphone1 img {
@@ -123,6 +127,7 @@ body{
     right: 98px;
     top: 12rem;
     z-index: 2;
+    left: 675px;
 }
 
 
@@ -135,13 +140,16 @@ body{
    justify-content: center;
    position: relative;
    height: 50rem;
+   max-width: 1275px;
+   margin: 0 auto;
+   padding: 0 25px;
 }
 .right-group{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 .right-group h1{
     text-align: center;
@@ -158,7 +166,7 @@ body{
     height: auto;
     width: 26rem;
     position: absolute;
-    right: 60%;
+    right: 49.5%;
     transform: translateX(-55%);
 }
 .iphone img{
@@ -166,7 +174,7 @@ body{
     width: 30rem;
     position: absolute;
     top: 17%;
-    right: 60%;
+    right: 49.5%;
     transform: translateX(-34%);
 }
 .f{
@@ -198,13 +206,15 @@ body{
 }
 
 .third-section{
-    background-image: url("../Images/Home background.png"); 
-    margin-top: -3.5rem;
+    background-image: url("./images/home\ background.png"); 
     position: relative;
     z-index: 1;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1275px;
+    margin: 0 auto;
+    padding: 10px 35px;
     
 }
 .third-section h2{
@@ -265,13 +275,18 @@ body{
     z-index: 9999;
     position: relative;
     margin-top: -145px;
-    margin-left: -16rem;
+    max-width: 1285px;
+    padding: -300px 0;
+    margin: -215px auto;
+    
+    
 
 }
 .third-shape-one {
     right: 80%;
     transform: translate(-36);
-    left: 70%;
+    left: 5px;
+    
 } 
 .third-section-second h1{
     text-align: center;
@@ -283,9 +298,12 @@ body{
     display: flex;
     gap: 150px;
     justify-content: center;
+    margin-left: -16rem;
 }
 .right-testy{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .testy{
     display: flex;
@@ -338,6 +356,7 @@ body{
     align-items: end;
     margin-top: 320px;
     margin-right: -16rem;
+    
 }
 .third-shape img{
     height: auto;
@@ -360,6 +379,10 @@ body{
     gap: 150px;
     padding-bottom: 80px;
     background-image: url("../Images/Home background.png"); 
+    max-width: 1275px;
+    margin: 0 auto;
+    padding-top: 160px;
+    
 }
 .forth-section h1{
     
@@ -406,7 +429,7 @@ body{
     height: auto;
     width: 17rem;
     position: absolute;
-    right: 60%;
+    right: 51%;
     transform: translateX(-132%);
     
 }
@@ -425,10 +448,14 @@ footer{
     position: relative;
     z-index: 2;
     color: #ffffff;
-   padding-top: 60px;
-    padding-bottom: 80px;
+   padding-top: 10px;
+    padding-bottom: -322px;
     background-color: #26A69A;
     box-shadow: 0 5px 20px rgb(133, 133, 133); 
+    max-width: 1275px;
+    margin: 0 auto;
+    margin-bottom: -520px;
+    
 }
 .footering h2{
     font-weight: 700;
@@ -482,10 +509,11 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    
 }
 .footer-logo img {
   height: auto;
-  width: 4rem;
+  width: 9rem;
   filter: brightness(0) invert(1);
 }
 
