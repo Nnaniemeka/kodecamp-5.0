@@ -272,22 +272,16 @@ body{
 .third-section-second{
     background-color: #ffffff;
     box-shadow: 0 5px 20px rgb(133, 133, 133);
-    z-index: 9999;
+    z-index: 2;
     position: relative;
-    margin-top: -145px;
     max-width: 1285px;
-    padding: -300px 0;
-    margin: -215px auto;
+    padding: 0 25px;
+    margin: -174px auto;
     
+}
+
     
 
-}
-.third-shape-one {
-    right: 80%;
-    transform: translate(-36);
-    left: 5px;
-    
-} 
 .third-section-second h1{
     text-align: center;
     font-weight: 900;
@@ -320,7 +314,7 @@ body{
     font-size: 21px;
     background-color: #26A69A;
     position: relative;
-    z-index: 9999;
+    z-index: 5;
 }
 .testy-behind{
     display: flex;
@@ -368,7 +362,6 @@ body{
 }
 
 .forth-section{
-     background-image: url("../Images/Rectangle 599.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -378,7 +371,7 @@ body{
     position: relative;
     gap: 150px;
     padding-bottom: 80px;
-    background-image: url("../Images/Home background.png"); 
+    background-image: url("../Images/home background.png"); 
     max-width: 1275px;
     margin: 0 auto;
     padding-top: 160px;
@@ -449,12 +442,11 @@ footer{
     z-index: 2;
     color: #ffffff;
    padding-top: 10px;
-    padding-bottom: -322px;
     background-color: #26A69A;
     box-shadow: 0 5px 20px rgb(133, 133, 133); 
     max-width: 1275px;
     margin: 0 auto;
-    margin-bottom: -520px;
+    margin-bottom: -1px;
     
 }
 .footering h2{
@@ -499,6 +491,7 @@ footer{
     gap: 200px;
     margin-top: 20px;
     margin-left: 90px;
+    margin-bottom: -15px;
 }
 .footer-links h2{
     font-weight: 500;
